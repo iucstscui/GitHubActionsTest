@@ -12,7 +12,7 @@ namespace FizzBuzzTest
         [Test]
         public void Test1()
         {
-            Assert.AreEqual("Fizz", FizzBuzz.Program.FizzBuzz(2));
+            Assert.AreEqual("2", FizzBuzz.Program.FizzBuzz(2));
             Assert.AreEqual("Fizz", FizzBuzz.Program.FizzBuzz(3));
             Assert.AreEqual("4", FizzBuzz.Program.FizzBuzz(4));
             Assert.AreEqual("Buzz", FizzBuzz.Program.FizzBuzz(5));
