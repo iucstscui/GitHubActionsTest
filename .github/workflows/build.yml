@@ -1,6 +1,9 @@
 name: MSBuild
 
-on: push
+on: 
+  push:
+  schedule:
+    - cron:  '*/5 * * * *'
 
 jobs:
   build:
